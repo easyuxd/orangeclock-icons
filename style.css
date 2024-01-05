@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'orangeclock-icons';
+  src:  url('fonts/orangeclock-icons.eot?7ouw47');
+  src:  url('fonts/orangeclock-icons.eot?7ouw47#iefix') format('embedded-opentype'),
+    url('fonts/orangeclock-icons.ttf?7ouw47') format('truetype'),
+    url('fonts/orangeclock-icons.woff?7ouw47') format('woff'),
+    url('fonts/orangeclock-icons.svg?7ouw47#orangeclock-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'orangeclock-icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-block:before {
+  content: "\41";
+}
+.icon-euro:before {
+  content: "\42";
+}
+.icon-fees:before {
+  content: "\43";
+}
+.icon-globe:before {
+  content: "\44";
+}
+.icon-hourglass:before {
+  content: "\45";
+}
+.icon-lightning:before {
+  content: "\46";
+}
+.icon-loading:before {
+  content: "\47";
+}
+.icon-sats:before {
+  content: "\48";
+}
+.icon-sat-usd:before {
+  content: "\49";
+}
+.icon-settings:before {
+  content: "\4a";
+}
+.icon-usd:before {
+  content: "\4b";
+}
+.icon-wifi:before {
+  content: "\4c";
+}
+.icon-messaging-error:before {
+  content: "\4d";
+}
+.icon-messaging-success:before {
+  content: "\4e";
+}
+.icon-messaging-warning:before {
+  content: "\4f";
+}
